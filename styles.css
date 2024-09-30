@@ -1,0 +1,82 @@
+body {
+    font-family: Copperplate, fantasy;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* Caminho relativo para a imagem de fundo */
+    background-image: url('imagemfundo/imagemcolorida.jpg'); /* Use o caminho relativo dentro do projeto */
+    background-size: cover; /* Cobre toda a área da página */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Ajuste para a imagem ser exibida em quadrado médio */
+#images {
+    width: 300px;    /* Largura do quadrado */
+    height: 300px;   /* Altura do quadrado */
+    object-fit: cover; /* Garante que a imagem preencha o quadrado */
+    display: none;   /* Mantém oculta até o JavaScript exibir */
+    border: 1px solid #000; /* Borda opcional para visualização */
+    margin-top: 20px; /* Espaçamento entre o conteúdo e a imagem */
+}
+
+
+
+
+
+
+
+
